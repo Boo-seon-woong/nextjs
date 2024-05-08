@@ -17,13 +17,13 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body >
-        <ol>
+        <ul>
           {
             topics.map((topic)=>{
-              return <li key={topic.id}><Link href={`/read/${topic.id}`}>`${topic.title}</Link></li>
+              return <li key={topic.id}><Link href={`/read/${topic.id}`}>{topic.title}</Link></li>
             })
           }
-        </ol>
+        </ul>
         <h1><Link href="/">WEB</Link></h1>
         <ol>
           <li><Link href="/read/1">html</Link></li>
