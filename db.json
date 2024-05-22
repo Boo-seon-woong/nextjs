@@ -1,12 +1,35 @@
 {
   "topic": [
-    {"id":1, "title":"undercover-angel","author":"swervy"},
-    {"id":2, "title":"anecdote","author":"E-Sens"},
-    {"id":3, "title":"stranger","author":"E-Sens"},
-    {"id":4, "title":"2mh41k","author":"Justhis"},
-    {"id":5, "title":"Free the Beast","author":"B-Free"}
-
-
+    {
+      "id": 1,
+      "title": "undercover-angel",
+      "author": "swervy"
+    },
+    {
+      "id": 2,
+      "title": "anecdote",
+      "author": "E-Sens"
+    },
+    {
+      "id": 3,
+      "title": "stranger",
+      "author": "E-Sens"
+    },
+    {
+      "id": 4,
+      "title": "2mh41k",
+      "author": "Justhis"
+    },
+    {
+      "id": 5,
+      "title": "Free the Beast",
+      "author": "B-Free"
+    },
+    {
+      "title": "new topic!",
+      "body": "is uploaded!",
+      "id": 6
+    }
   ],
   "posts": [
     {
