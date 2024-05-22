@@ -2,12 +2,11 @@
   "name": "nj",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://boo-seon-woong.github.io/nextjs/",
+  "homepage":"https://boo-seon-woong.github.io/nextjs",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "predeploy" : "npm run build",
-    "deploy" : "touch out/.nojekyll && gh-pages -d out --dotfiles",
+    "build": "next build && next export",
+    "serve" : "npx http-server out",
     "start": "next start",
     "lint": "next lint"
   },
