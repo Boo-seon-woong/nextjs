@@ -29,6 +29,16 @@
       "title": "new topic!",
       "body": "is uploaded!",
       "id": 6
+    },
+    {
+      "title": "캐시 문제 해결 완료",
+      "body": "fetch('http://localhost:9999/topic',{'cache:'no-store'})",
+      "id": 7
+    },
+    {
+      "title": "asdf",
+      "body": "fdsa",
+      "id": 8
     }
   ],
   "posts": [
