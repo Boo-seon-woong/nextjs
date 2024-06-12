@@ -27,18 +27,23 @@
     },
     {
       "title": "new topic!",
-      "body": "is uploaded!",
+      "author": "is uploaded!",
       "id": 6
     },
     {
       "title": "캐시 문제 해결 완료",
-      "body": "fetch('http://localhost:9999/topic',{'cache:'no-store'})",
+      "author": "fetch('http://localhost:9999/topic',{'cache:'no-store'})",
       "id": 7
     },
     {
-      "title": "asdf",
-      "body": "fdsa",
+      "title": "뉴욕덥크무난사사건",
+      "author": "손심바",
       "id": 8
+    },
+    {
+      "title": "ㄹ",
+      "author": "ㄴㅇ",
+      "id": 9
     }
   ],
   "posts": [

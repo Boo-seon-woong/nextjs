@@ -4,13 +4,13 @@ export default function Create(){
         <form onSubmit={(e)=>{
             e.preventDefault();
             const title=e.target.title.value;
-            const body=e.target.body.value;
+            const author=e.target.body.value;
             const options = {
                 method : 'POST',
                 headers : {
                     'Content-Type': 'application/json'
                 },
-                body : JSON.stringify({title,body})
+                body : JSON.stringify({title,author})
             }
             fetch('http://localhost:9999/topic',options)
             .then(res=>res.json())
